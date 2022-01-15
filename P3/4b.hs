@@ -1,0 +1,1 @@
+compactacom f xs ys =  map (uncurry f) (zip xs ys)
